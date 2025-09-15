@@ -73,6 +73,5 @@ public class JAVABASICS {
         else {
             System.out.println("c is greater" + " c : "+c);
         }
-        sc.close();
     }
 }
