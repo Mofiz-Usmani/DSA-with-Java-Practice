@@ -29,9 +29,25 @@ public class JAVABASICS {
 
 
         // Type Casting
-        float a = 25.23f;
-        int b = (int)a;
+        // float a = 25.23f;
+        // int b = (int)a;
 
+        // System.out.println(b);
+
+
+
+        // Type Promotion
+        // int a = 10;
+        // float b = 20.87f;
+        // long c = 34;
+        // double d = 30;
+        // double ans = a + b + c + d;
+        // System.out.println(ans);
+
+
+        // Error
+        byte a = 5;
+        b = b * 2;
         System.out.println(b);
     }
 }
