@@ -24,8 +24,14 @@ public class JAVABASICS {
         // int b = a;
 
         // INt to float 
-        float number = sc.nextFloat();
-        System.out.println(number);
+        // float number = sc.nextFloat();
+        // System.out.println(number);
 
+
+        // Type Casting
+        float a = 25.23f;
+        int b = (int)a;
+
+        System.out.println(b);
     }
 }
