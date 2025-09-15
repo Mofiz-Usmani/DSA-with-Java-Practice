@@ -47,9 +47,32 @@ public class JAVABASICS {
 
         // Error arithmetic operations on byte, short, or char - 
         // are automatically promoted to int before calculation.
-        byte b = 5;
+        // byte b = 5;
         // b = b * 2;   // Error
-        b = (byte)(b * 2);  // Right
-        System.out.println(b);
+        // b = (byte)(b * 2);  // Right
+        // System.out.println(b);
+
+
+
+        // Write a Java program that takes three integers as input-
+        // and prints the largest number using only if–else statements (no built-in Math.max).
+        System.out.println("Enter a : ");
+        int a = sc.nextInt();
+        System.out.println("Enter b : ");
+        int b = sc.nextInt();
+        System.out.println("Enter c : ");
+        int c = sc.nextInt();
+
+
+        if( a>b && a>c) {
+            System.out.println("a is greater" + " a : "+a);
+        }
+        else if(b>a && b>c){
+            System.out.println("b is greater" + " b : "+b);
+        }
+        else {
+            System.out.println("c is greater" + " c : "+c);
+        }
+        sc.close();
     }
 }
