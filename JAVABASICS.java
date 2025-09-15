@@ -45,9 +45,10 @@ public class JAVABASICS {
         // System.out.println(ans);
 
 
-        // Error
-        byte a = 5;
-        b = b * 2;
-        System.out.println(b);
+        // Error arithmetic operations on byte, short, or char - 
+        // are automatically promoted to int before calculation.
+        // byte a = 5;
+        // b = b * 2;
+        // System.out.println(b);
     }
 }
