@@ -77,15 +77,42 @@ public class JAVABASICS {
 
         // Write a Java program that takes three integers as input and finds
         // the largest number using only the ternary operator (no if–else, no Math.max).
+        // System.out.println("Enter a : ");
+        // int a = sc.nextInt();
+        // System.out.println("Enter b : ");
+        // int b = sc.nextInt();
+        // System.out.println("Enter c : ");
+        // int c = sc.nextInt();
+        // int largest = (a > b) 
+        //         ? (a > c ? a : c) 
+        //         : (b > c ? b : c);
+        // System.out.println("Largest number is " + largest);
+
+
+
         System.out.println("Enter a : ");
         int a = sc.nextInt();
         System.out.println("Enter b : ");
         int b = sc.nextInt();
-        System.out.println("Enter c : ");
-        int c = sc.nextInt();
-        int largest = (a > b) 
-                ? (a > c ? a : c) 
-                : (b > c ? b : c);
-        System.out.println("Largest number is " + largest);
+        System.out.println("Enter b : ");
+        String op = sc.next();
+        
+
+        switch (op) {
+            case "+":
+                System.out.println("a + b = "+ (a+b));
+                break;
+            case "-": 
+                System.out.println("a - b = "+ (a-b));
+                break;
+            case "*": 
+                System.out.println("a * b = "+ (a*b));
+                break;
+            case "/": 
+                System.out.println("a / b = "+ (a/b));
+                break;
+            default:
+                break;
+        }
     }
 }
