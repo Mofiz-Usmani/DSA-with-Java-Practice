@@ -75,7 +75,8 @@ public class JAVABASICS {
         // }
 
 
-
+        // Write a Java program that takes three integers as input and finds
+        // the largest number using only the ternary operator (no if–else, no Math.max).
         System.out.println("Enter a : ");
         int a = sc.nextInt();
         System.out.println("Enter b : ");
