@@ -23,15 +23,16 @@ public class JAVABASICS {
         // long a = 25;
         // int b = a;
 
+        
         // INt to float 
         // float number = sc.nextFloat();
         // System.out.println(number);
 
 
+
         // Type Casting
         // float a = 25.23f;
         // int b = (int)a;
-
         // System.out.println(b);
 
 
@@ -45,12 +46,14 @@ public class JAVABASICS {
         // System.out.println(ans);
 
 
+
         // Error arithmetic operations on byte, short, or char - 
         // are automatically promoted to int before calculation.
         // byte b = 5;
         // b = b * 2;   // Error
         // b = (byte)(b * 2);  // Right
         // System.out.println(b);
+
 
 
 
@@ -75,6 +78,7 @@ public class JAVABASICS {
         // }
 
 
+
         // Write a Java program that takes three integers as input and finds
         // the largest number using only the ternary operator (no if–else, no Math.max).
         // System.out.println("Enter a : ");
@@ -90,29 +94,31 @@ public class JAVABASICS {
 
 
 
-        System.out.println("Enter a : ");
-        int a = sc.nextInt();
-        System.out.println("Enter b : ");
-        int b = sc.nextInt();
-        System.out.println("Enter b : ");
-        String op = sc.next();
+
+        // Switch Statement
+        // System.out.println("Enter a : ");
+        // int a = sc.nextInt();
+        // System.out.println("Enter b : ");
+        // int b = sc.nextInt();
+        // System.out.println("Enter b : ");
+        // String op = sc.next();
         
 
-        switch (op) {
-            case "+":
-                System.out.println("a + b = "+ (a+b));
-                break;
-            case "-": 
-                System.out.println("a - b = "+ (a-b));
-                break;
-            case "*": 
-                System.out.println("a * b = "+ (a*b));
-                break;
-            case "/": 
-                System.out.println("a / b = "+ (a/b));
-                break;
-            default:
-                break;
-        }
+        // switch (op) {
+        //     case "+":
+        //         System.out.println("a + b = "+ (a+b));
+        //         break;
+        //     case "-": 
+        //         System.out.println("a - b = "+ (a-b));
+        //         break;
+        //     case "*": 
+        //         System.out.println("a * b = "+ (a*b));
+        //         break;
+        //     case "/": 
+        //         System.out.println("a / b = "+ (a/b));
+        //         break;
+        //     default:
+        //         break;
+        // }
     }
 }
