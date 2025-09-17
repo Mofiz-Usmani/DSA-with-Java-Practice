@@ -129,5 +129,17 @@ public class JAVABASICS {
         //     System.out.print(i+" ");
         //     i++;
         // }
+
+
+
+        // Reverse of a number
+        int n = 10899;
+
+        while(n > 0){
+            int lastDigit = n%10;
+            System.out.print(lastDigit);
+            n = n/10;
+        }
+        System.out.println();
     }
 }
