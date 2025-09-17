@@ -145,10 +145,27 @@ public class JAVABASICS {
 
 
         // Do While Loop
-        int i = 1;
-        do {
-            System.out.print(i + " ");
-            i++;
-        } while (i <=10);
+        // int i = 1;
+        // do {
+        //     System.out.print(i + " ");
+        //     i++;
+        // } while (i <=10);
+
+
+
+
+        // Table of Number
+        System.out.println("Enter a Number : ");
+        int num = sc.nextInt();
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Table of "+ num + " : ");
+        System.out.println();
+
+
+        for(int i=1; i<=10; i++){
+            System.out.println(num + " X " + i + " = " + num*i);
+        }
     }
 }
