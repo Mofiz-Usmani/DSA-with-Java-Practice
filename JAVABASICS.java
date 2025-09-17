@@ -155,17 +155,28 @@ public class JAVABASICS {
 
 
         // Table of Number
-        System.out.println("Enter a Number : ");
-        int num = sc.nextInt();
+        // System.out.println("Enter a Number : ");
+        // int num = sc.nextInt();
 
-        System.out.println();
-        System.out.println();
-        System.out.println("Table of "+ num + " : ");
-        System.out.println();
+        // System.out.println();
+        // System.out.println();
+        // System.out.println("Table of "+ num + " : ");
+        // System.out.println();
 
 
-        for(int i=1; i<=10; i++){
-            System.out.println(num + " X " + i + " = " + num*i);
+        // for(int i=1; i<=10; i++){
+        //     System.out.println(num + " X " + i + " = " + num*i);
+        // }
+
+
+
+
+        // Pattern 1 
+        for(int i=0; i<=4; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
