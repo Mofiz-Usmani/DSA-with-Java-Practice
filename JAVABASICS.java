@@ -133,13 +133,22 @@ public class JAVABASICS {
 
 
         // Reverse of a number
-        int n = 10899;
+        // int n = 10899;
 
-        while(n > 0){
-            int lastDigit = n%10;
-            System.out.print(lastDigit);
-            n = n/10;
-        }
-        System.out.println();
+        // while(n > 0){
+        //     int lastDigit = n%10;
+        //     System.out.print(lastDigit);
+        //     n = n/10;
+        // }
+        // System.out.println();
+
+
+
+        // Do While Loop
+        int i = 1;
+        do {
+            System.out.print(i + " ");
+            i++;
+        } while (i <=10);
     }
 }
