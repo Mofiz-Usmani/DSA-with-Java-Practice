@@ -248,12 +248,35 @@ public class JAVABASICS {
 
 
         // Pattern 7 (inverted half pyramid with numbers)
+        // for(int i=1; i<=5; i++){                        
+        //     for(int j=1; j<=5-i+1; j++){
+        //         System.out.print(j);
+        //     }
+        //     System.out.println();
+        // }
+
+        // Output : 
+        // 12345
+        // 1234
+        // 123
+        // 12
+        // 1
+
+
+
+
+
+        // Pattern 8 (Floyd's Traingle)
+        int counter = 1;
         for(int i=1; i<=5; i++){
-            for(int j=1; j<=5-i+1; j++){
-                System.out.print(j);
+            for(int j=1; j<=i; j++){
+                System.out.print(counter + " ");
+                counter++;
             }
             System.out.println();
         }
+
+
 
     }
 }
