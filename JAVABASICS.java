@@ -215,15 +215,32 @@ public class JAVABASICS {
 
 
 
-        // Pattern 5
+        // Pattern 5 (printing a 4×5 hollow rectangle)
+        // for(int i=1; i<=4; i++){
+        //     for(int j=1; j<=5; j++){
+        //         if(i == 1 || i == 4 || j == 1 || j == 5){
+        //             System.out.print("*");
+        //         } else {
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+
+
+
+        // Pattern 6
         for(int i=1; i<=4; i++){
-            for(int j=1; j<=5; j++){
-                if(i == 1 || i == 4 || j == 1 || j == 5){
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+
+            for(int space=1; space<=4-i; space++){
+                System.out.print(" ");
             }
+
+            for(int star=1; star<=i; star++){
+                System.out.print("*");
+            }
+
             System.out.println();
         }
     }
