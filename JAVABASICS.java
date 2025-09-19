@@ -267,16 +267,46 @@ public class JAVABASICS {
 
 
         // Pattern 8 (Floyd's Traingle)
-        int counter = 1;
-        for(int i=1; i<=5; i++){
-            for(int j=1; j<=i; j++){
-                System.out.print(counter + " ");
-                counter++;
-            }
-            System.out.println();
-        }
+        // int counter = 1;
+        // for(int i=1; i<=5; i++){
+        //     for(int j=1; j<=i; j++){
+        //         System.out.print(counter + " ");
+        //         counter++;
+        //     }
+        //     System.out.println();
+        // }
+
+        // Output : 
+
+        // 1 
+        // 2 3
+        // 4 5 6
+        // 7 8 9 10
+        // 11 12 13 14 15
 
 
 
+
+
+
+        // Pattern 9 (0-1 Traingle)
+        // for(int i=1; i<=5; i++){
+        //     for(int j=1; j<=i; j++){
+        //         if((i+j)%2 == 0){
+        //             System.out.print("1");
+        //         } else {
+        //             System.out.print("0");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        // Output :
+
+        // 1
+        // 01
+        // 101
+        // 0101
+        // 10101
     }
 }
