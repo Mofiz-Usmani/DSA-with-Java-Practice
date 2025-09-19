@@ -231,17 +231,29 @@ public class JAVABASICS {
 
 
         // Pattern 6
-        for(int i=1; i<=4; i++){
+        // for(int i=1; i<=4; i++){
 
-            for(int space=1; space<=4-i; space++){
-                System.out.print(" ");
+        //     for(int space=1; space<=4-i; space++){
+        //         System.out.print(" ");
+        //     }
+
+        //     for(int star=1; star<=i; star++){
+        //         System.out.print("*");
+        //     }
+
+        //     System.out.println();
+        // }
+
+
+
+
+        // Pattern 7 (inverted half pyramid with numbers)
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<=5-i+1; j++){
+                System.out.print(j);
             }
-
-            for(int star=1; star<=i; star++){
-                System.out.print("*");
-            }
-
             System.out.println();
         }
+
     }
 }
