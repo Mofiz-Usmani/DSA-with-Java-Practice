@@ -314,12 +314,30 @@ public class JAVABASICS {
 
 
         // Solid Rhombus
+        // for(int i=1; i<=5; i++){
+        //     for(int j=4; j>=i; j--){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1; j<=5; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+
+
+
+        // Hollow Rhombus
         for(int i=1; i<=5; i++){
-            for(int j=4; j>=i; j--){
+            for(int j=0; j<=5-i; j++){
                 System.out.print(" ");
             }
             for(int j=1; j<=5; j++){
-                System.out.print("*");
+                if(i == 1 || i == 5 || j == 1 || j == 5){
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
